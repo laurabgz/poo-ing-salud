@@ -142,7 +142,7 @@ public class Tienda {
 	}
 	
 	public void guardarProductos(PrintWriter pw) {
-		pw.println("Productos:\n\t");
+		pw.println("Productos:\n");
 
 		for (Producto producto: disponibles.keySet()) {
 			pw.println(producto);
